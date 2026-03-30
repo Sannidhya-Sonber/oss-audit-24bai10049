@@ -1,0 +1,118 @@
+sannidhya_sonber@SANNIDHYA:~$ nano script1.sh
+sannidhya_sonber@SANNIDHYA:~$ chmod +x script1.sh
+sannidhya_sonber@SANNIDHYA:~$ ./script1.sh
+========================================
+ Open Source Audit — Sannidhya
+========================================
+Software Chosen : Git
+Distribution    : Ubuntu 24.04.4 LTS
+Kernel Version  : 6.6.87.2-microsoft-standard-WSL2
+User            : sannidhya_sonber
+Home Directory  : /home/sannidhya_sonber
+Uptime          : up 17 minutes
+Date & Time     : Sun Mar 29 11:45:17 UTC 2026
+License         : GNU General Public License (GPL)
+========================================
+sannidhya_sonber@SANNIDHYA:~$ nano script2.sh
+sannidhya_sonber@SANNIDHYA:~$ chmod +x script2.sh
+sannidhya_sonber@SANNIDHYA:~$ ./script2.sh
+==========================================
+       FOSS PACKAGE INSPECTOR
+==========================================
+python3 is installed on this system.
+
+Package Details:
+Version: 3.12.3-0ubuntu2.1
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Description: interactive high-level object-oriented language (default python3 version)
+
+------------------------------------------
+Software Description:
+------------------------------------------
+Python: A powerful open-source programming language known for simplicity and wide applications.
+==========================================
+sannidhya_sonber@SANNIDHYA:~$ [200~nano script3.sh
+[200~nano: command not found
+sannidhya_sonber@SANNIDHYA:~$ nano script3.sh
+sannidhya_sonber@SANNIDHYA:~$ chmod +x script3.sh
+sannidhya_sonber@SANNIDHYA:~$ ./script3.sh
+==========================================
+     DISK AND PERMISSION AUDIT REPORT
+==========================================
+Directory : /etc
+Permissions/Owner : drwxr-xr-x root root
+Size : 4.3M
+------------------------------------------
+Directory : /var/log
+Permissions/Owner : drwxrwxr-x root syslog
+Size : 37M
+------------------------------------------
+Directory : /home
+Permissions/Owner : drwxr-xr-x root root
+Size : 56K
+------------------------------------------
+Directory : /usr/bin
+Permissions/Owner : drwxr-xr-x root root
+Size : 95M
+------------------------------------------
+Directory : /tmp
+Permissions/Owner : drwxrwxrwt root root
+Size : 20K
+------------------------------------------
+
+==========================================
+ Python Configuration Directory Check
+==========================================
+/etc/python3 exists
+Permissions : drwxr-xr-x root root
+==========================================
+sannidhya_sonber@SANNIDHYA:~$ nano script4.sh
+sannidhya_sonber@SANNIDHYA:~$ chmod +x script4.sh
+sannidhya_sonber@SANNIDHYA:~$ ./script4.sh
+==========================================
+          LOG FILE ANALYZER
+==========================================
+Error: File not found!
+sannidhya_sonber@SANNIDHYA:~$ ./script4.sh /var/log/syslog
+==========================================
+          LOG FILE ANALYZER
+==========================================
+
+Total occurrences of 'error' : 8
+
+Last 5 matching lines:
+------------------------------------------
+2026-03-29T11:27:01.643501+00:00 SANNIDHYA kernel: WSL (265) ERROR: CheckConnection: getaddrinfo() failed: -5
+2026-03-29T11:27:01.761335+00:00 SANNIDHYA snapd[201]: helpers.go:190: error trying to compare the snap system key: system-key missing on disk
+2026-03-29T11:27:02.485537+00:00 SANNIDHYA wsl-pro-service[205]: #033[33mWARNING#033[0m Could not ensure valid Landscape configuration: could not ensure valid Landscape configuration: could not register distro to Landscape: could not enable Landscape: /usr/bin/landscape-config: error: exit status 1.
+2026-03-29T11:31:44.118099+00:00 SANNIDHYA systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-03-29T11:31:44.118102+00:00 SANNIDHYA systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+==========================================
+sannidhya_sonber@SANNIDHYA:~$ nano script5.sh
+sannidhya_sonber@SANNIDHYA:~$ chmod +x script5.sh
+sannidhya_sonber@SANNIDHYA:~$ ./script5.sh
+==========================================
+   OPEN SOURCE MANIFESTO GENERATOR
+==========================================
+
+1. Name an open-source tool you use daily: Python
+2. What does 'freedom' mean to you (one word)? Innovation
+3. What would you like to build and share? AI tools
+
+Generating your manifesto...
+
+Manifesto saved successfully in manifesto_sannidhya_sonber.txt
+
+----------------------------------------
+        OPEN SOURCE MANIFESTO
+----------------------------------------
+Date: 29 March 2026
+
+I regularly use Python in my daily work.
+To me, freedom represents Innovation.
+I believe in sharing knowledge and building for the community.
+In the future, I aim to create AI tools and make it freely available.
+
+— sannidhya_sonber
+sannidhya_sonber@SANNIDHYA:~$
