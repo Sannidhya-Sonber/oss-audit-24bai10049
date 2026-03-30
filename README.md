@@ -2,7 +2,7 @@
 # Open Source Software Audit Project
 
 ## Student Information
-Name: Darsh  
+Name: Sannidhya  
 Course: Open Source Software  
 
 ## Selected Software
